@@ -1,0 +1,6 @@
+1. Paskubom perrašinėdamas pagadinau M.Garrels skriptą.
+a) Pervadinkite jį coffee_machine.sh.
+b) Ištaisykite 7 klaidas.
+c) Padarykite, kad nespausdintų skripto eilučių.
+d) Jei vartotojas įvedė DRINK=x, nutraukite ciklo darbą komanda exit.
+e) Įkelkite į savo talpyklą.
