@@ -1,0 +1,15 @@
+
+1. Kiek procesų šiuo metu veikia jūsų kompiuteryje? Pasinaudokite
+programomis ps ir wc. Atkreipkite dėmesį, kad pirmoji ps eilutė nėra
+procesas. (Pratimas iš M.Garrels knygos "Bash guide for beginners")
+
+2. Sukurtos komandos pagrindu parašykite skriptą proc_count.sh, kuris
+vartotojui ekrane parašytų tekstą:
+
+"Šiuo metu veikia X procesų"
+
+Primenu, kad klaviatūras galima perjungti komanda
+$ setxkbmap lt
+$ setxkbmap us
+
+3. Įsitikinkite, kad skriptas veikia, ir įrašykite jį į savo talpyklą.
