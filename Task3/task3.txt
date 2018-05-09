@@ -1,0 +1,16 @@
+1. Moodle nueikite į "12 pratybų pasitikrinimo klausimas 3" ir atlikite
+pasitikrinimo klausimą.
+
+2. Parašykite skriptą count_unique.sh, kuris iš komandinės eilutės
+gautų vieną argumentą - failo pavadinimą. Tipinio failo pavyzdys yra
+tables.out. Skriptas turi parašyti, kiek faile yra skirtingų lentelių
+pavadinimų. Lentelių pavadinimai prasideda raidėmis "CMS_". Sprendimo
+algoritmas - teisingas pasitikrinimo klausimo atsakymas.
+
+3. Skriptą įrašykite į savo talpyklą.
+
+Pagalba:
+1) šablono ieškojimas - komanda grep
+2) eilučių rūšiavimas - komanda sort
+3) pasikartojančių eilučių pašalinimas - komanda uniq
+4) eilučių skaičiavimas - komanda wc
