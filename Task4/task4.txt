@@ -1,0 +1,40 @@
+Programa longCalc imituoja kelių cheminių elementų izotopų savybių
+skaičiavimo programą. Programa turi keletą jos veikimą valdančių
+raktų, kuriuos galima sužinoti paleidžiant pačią programą. Jei
+programa vykdė skaičiavimą, ji sukuria failą output.dat. Skaičiavimo
+rezultatai prasmės neturi, bet pati programa įrašo diagnostinius
+pranešimus: 'SUCCESS', 'CONVERGENCE FAILED', 'ERROR' arba nėra jokio
+pranešimo. Jei skaičiavime buvo klaida ('ERROR'), sekančioje eilutėje
+yra jos aprašymas.
+
+
+4.1. Faile description_calcOne.txt pasirašykite sprendimo/veiksmų
+planą užduočiai:
+
+"Parašyti skriptą calcOne.sh, kuris:
+a) Suskaičiuotų vartotojo nurodyto izotopo savybes
+b) Rezultatų failą pervadintų į output_<izotopas>.dat ir nukopijuotų į
+katalogą dir-results/
+"
+
+
+4.2. Faile description_calcAll.txt pasirašykite sprendimo/veiksmų
+planą užduočiai:
+
+"Parašyti skriptą calcAll.sh, kuris suskaičiuotų visų programai žinomų
+izotopų savybes 4.1 užduotyje nurodytų būdu. T.y. calcAll.sh skriptas
+turėtų kreiptis į calcOne.sh skriptą."
+
+
+4.3. Faile description_recalcOne.txt pasirašykite sprendimo/veiksmų
+planą užduočiai:
+
+"Parašyti skriptą, kuris skaičiuotų vartotojo nurodyto izotopo savybes
+leisdamas programą tol, kol rezultatų faile diagnostinis pranešimas
+būtų 'SUCCESS'. Šį failą pavadintų output-<izotopas>-ok.dat ir
+nukopijuotų į katalogą dir-results-ok."
+
+
+4.4. Parašykite skriptus calcOne.sh, calcAll.sh, recalcOne.sh ir
+aprašus bei skriptus įkelkite į talpyklą.
+
